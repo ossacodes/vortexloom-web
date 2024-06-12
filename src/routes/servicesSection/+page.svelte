@@ -9,7 +9,7 @@
               <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
               <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
           </svg>
-                <p class="pb-2 mx-auto text-xl font-light leading-relaxed text-gray-500">Save time managing advertising & Content for your business.</p>
+                <p class="pb-2 mx-auto text-xl font-light leading-relaxed text-gray-500">Have Access to our professional and fexible services.</p>
               </header><!-- End heading -->
 
           <!-- row -->
@@ -19,12 +19,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
+                  <img src="img/icons/uiux.png" alt="UI/UX Design" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">SEO Services</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">UI/UX Design</h3>
+                <p class="text-gray-500">We design professional looking UI/UX designs for your projects to get the actual look of how you project will look like.</p>
               </div> <!-- end service block -->
             </div>
 
@@ -33,14 +31,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
-                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                    <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                  </svg>
-
+                  <img src="img/icons/front-end.png" alt="Front-end web development" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Social Content</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Front-end web development</h3>
+                <p class="text-gray-500">We create the font-end for your web or mobile to look and feel exactly as you want from the UI/UX design you provided or the one we create for you.</p>
               </div><!-- end service block -->
             </div>
 
@@ -49,13 +43,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-badge-ad" viewBox="0 0 16 16">
-                    <path d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"/>
-                    <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
-                  </svg>
+                  <img src="img/icons/back-end.png" alt="back-end web development" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Creative ads</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Back-end web development</h3>
+                <p class="text-gray-500">With us creating the back-end for you, it brings life and functionality to your web or mobile app to perform exactly as you intended.</p>
               </div><!-- end service block -->
             </div>
 
@@ -64,13 +55,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
-                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                    <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
-                  </svg>
+                  <img src="img/icons/ios_android.png" alt="android and ios" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Brand Identity</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Hybrid mobile app development</h3>
+                <p class="text-gray-500">The mobile apps we create for you can be accessed on both Ios and Android platforms with the same code-base and fast development time.</p>
               </div><!-- end service block -->
             </div>
 
@@ -79,12 +67,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
-                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
-                  </svg>
+                  <img src="img/icons/cloud.png" alt="cloud and web services" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Budget & Marketing</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Cloud and web services</h3>
+                <p class="text-gray-500">We also provide web and server services configuration and setup when the you request for it, this can be done on AWS or Digital Ocean.</p>
               </div><!-- end service block -->
             </div>
 
@@ -93,12 +79,10 @@
               <div class="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-gray-100 bg-gray-50 hover:-translate-y-2">
                 <div class="inline-block mb-4 text-gray-900">
                   <!-- icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
-                    <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
-                  </svg>
+                  <img src="img/icons/launch_icon.png" alt="launch app" width={70} height={70} />
                 </div>
-                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Optimize conversions</h3>
-                <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                <h3 class="mb-2 text-lg font-semibold leading-normal text-black">Project deployment and publishing</h3>
+                <p class="text-gray-500">When the development and testing of your web or mobile app is done, we also deploy or publish it for you when requested.</p>
               </div><!-- end service block -->
             </div>
           </div><!-- end row -->

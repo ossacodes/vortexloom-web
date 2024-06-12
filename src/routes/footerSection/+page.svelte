@@ -6,7 +6,7 @@
         <div class="flex flex-row flex-wrap -mx-3 lg:justify-between">
           <div class="flex-shrink w-full max-w-full px-3 lg:w-2/5 lg:pr-16">
             <div class="flex items-center mb-2">
-              <span class="mt-2 mb-2 text-3xl font-bold leading-normal text-gray-800">Tailone</span>
+              <span class="mt-2 mb-2 text-3xl font-bold leading-normal text-gray-800">VortexLoom</span>
               <!-- <img src="src/img-min/logo.png" alt="LOGO"> -->
             </div>
             <p>Tailwind One Page Template for build One page landing page.</p>

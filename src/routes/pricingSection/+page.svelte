@@ -44,7 +44,7 @@
 	}
 </script>
 
-<div id="pricing" class="relative items-center w-full mx-auto section md:px-12 lg:px-16 max-w-7xl">
+<div id="pricing" class="relative items-center w-full mx-auto my-5 section md:px-12 max-w-7xl">
 	<div>
 		<header class="mx-auto mb-12 text-center">
 			<h2 class="mb-2 text-2xl font-bold leading-normal text-gray-800 dark:text-gray-100">

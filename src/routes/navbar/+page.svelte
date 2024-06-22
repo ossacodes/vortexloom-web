@@ -50,7 +50,7 @@
                 <a class="block px-6 py-3 border-b-2 border-transparent lg:py-7" href="#pricing" on:click|preventDefault={scrollIntoView}>Pricing</a>
               </li>
               <li class="relative hover:text-white">
-                <a class="block px-6 py-3 border-b-2 border-transparent lg:py-7" href="#team" on:click|preventDefault={scrollIntoView}>Team</a>
+                <a class="block px-6 py-3 border-b-2 border-transparent lg:py-7" href="#team" on:click|preventDefault={scrollIntoView}>Faq</a>
               </li>
               <li class="relative hover:text-white">
                 <a class="block px-6 py-3 border-b-2 border-transparent lg:py-7" href="#contact" on:click|preventDefault={scrollIntoView}>Contact</a>

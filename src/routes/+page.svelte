@@ -8,7 +8,8 @@
 	import TeamSection from './teamSection/+page.svelte';
 	import ContactScetion from './contactusSection/+page.svelte';
 	import FooterSection from './footerSection/+page.svelte';
-  import PricingSection from './pricingSection/+page.svelte';
+	import PricingSection from './pricingSection/+page.svelte';
+	import FaqSection from './FaqSection/+page.svelte';
 </script>
 
 <!-- =========={ MAIN }==========  -->
@@ -21,7 +22,7 @@
 	<!-- <ClientsSection /> -->
 	<WorkSection />
   <PricingSection />
-	<TeamSection />
+	<FaqSection />
 	<ContactScetion />
 </main>
 <FooterSection />

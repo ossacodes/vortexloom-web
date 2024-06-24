@@ -3,7 +3,7 @@ import Stripe from 'stripe';
 import { error } from '@sveltejs/kit';
 
 const stripe = new Stripe(
-	process.env.STRIPE_SECRET_KEY ?? '',
+	'sk_test_51NCkusAoblSttJOcyd07ISRVUtPNzVFqDXxlVrERFQJF2AzrlyK6NhhLCGrXf1eY5YSvO8b5NuWIW0yyeKWyVhjF00xphJupTW',
 );
 
 /**

@@ -2,7 +2,7 @@
 // src/actions/subscribe.js
 import Stripe from 'stripe';
 
-const stripe = new Stripe(process.env.STRIPE_PUBLIC_KEY);
+const stripe = new Stripe('pk_test_51NCkusAoblSttJOcBXOGiYhKzhubjuY8piT15XnbISBbIGTR2hXRakX3xE6KWJBJTr2d0o2kcTNG8eClPpy4t6au00DFMQBkQM');
 
 export async function post(request) {
     const { paymentMethodId, email, priceId } = JSON.parse(request.body);

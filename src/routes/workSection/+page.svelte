@@ -49,16 +49,16 @@
 		<div class="shadow-xl card w-96 bg-base-100">
 			<figure class="rounded-b-3xl">
 				<img
-					src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-					alt="Shoes"
+					src="https://media.contra.com/image/upload/c_limit,fl_lossy,w_1700/v1720524818/tuqo38ethwwptkz7uskz.png"
+					alt="A chat Mobile App(Android and Ios) using Flutter"
 				/>
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title">
-					Mobile Chat App
+					A chat Mobile App(Android and Ios) using Flutter
 					<div class="badge badge-secondary">NEW</div>
 				</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<p>At first the project was about creating a chat app that was meant to be for both ios and android.</p>
 				<div class="justify-end card-actions">
 					<div class="badge badge-outline">Flutter</div>
 					<div class="badge badge-outline">Firebase</div>
@@ -69,20 +69,20 @@
 		<div class="shadow-xl card w-96 bg-base-100">
 			<figure class="rounded-b-3xl">
 				<img
-					src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-					alt="Shoes"
+					src="https://media.contra.com/image/upload/c_limit,fl_lossy,w_1700/v1720524945/vcpw94enzqg1nc2dalom.png"
+					alt="A map based dating hybrid app with flutter"
 				/>
 			</figure>
 			<div class="card-body">
 				<h2 class="card-title">
-					AI Prompt Search Web App
+					A map based dating hybrid app with flutter
 					<div class="badge badge-secondary">NEW</div>
 				</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<p>Initially the client wanted an app for both ios/android and also web that can have people meet and communicate based on the location they are in.</p>
 				<div class="justify-end card-actions">
-					<div class="badge badge-outline">React</div>
-					<div class="badge badge-outline">NextJS</div>
-					<div class="badge badge-outline">MongoDB</div>
+					<div class="badge badge-outline">Flutter</div>
+					<div class="badge badge-outline">Firebase</div>
+					<div class="badge badge-outline">Google Maps Api</div>
 				</div>
 			</div>
 		</div>
@@ -90,16 +90,15 @@
 		<div class="shadow-xl card w-96 bg-base-100">
 			<figure class="rounded-b-3xl">
 				<img
-					src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-					alt="Shoes"
+					src="https://media.contra.com/image/upload/c_limit,fl_lossy,w_1700/v1721212444/ezqyfr6dcod3t74sbevw.png"
+					alt="Flutter web app for public chat application based on location."
 				/>
 			</figure>
 			<div class="card-body">
-				<h2 class="card-title">AI Chat Mobile App</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
+				<h2 class="card-title">Flutter web app for public chat application based on location.</h2>
+				<p>The project was to build a web app using flutter that can help user in a certain location share information and data.</p>
 				<div class="justify-end card-actions">
 					<div class="badge badge-outline">Flutter</div>
-					<div class="badge badge-outline">OpenAI Api</div>
 					<div class="badge badge-outline">Firebase</div>
 				</div>
 			</div>

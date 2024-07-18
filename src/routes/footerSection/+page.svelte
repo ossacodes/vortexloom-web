@@ -44,20 +44,13 @@
           <div class="flex-shrink w-full max-w-full px-3 lg:w-3/5">
             <div class="flex flex-row flex-wrap">
               <div class="flex-shrink w-1/2 max-w-full mb-6 md:w-1/3 lg:mb-0">
-                <h4 class="mb-3 text-base leading-normal text-gray-800 uppercase">Support</h4>
-                <ul>
-                  <li class="py-1 hover:text-gray-900"><a href="docs/index.html">Documentation</a></li>
-                  <li class="py-1 hover:text-gray-900"><a href="docs/components.html">Components</a></li>
-                  <li class="py-1 hover:text-gray-900"><a href="docs/credits.html">Credits</a></li>
-                  <li class="py-1 hover:text-gray-900"><a href="docs/changelogs.html">Changelog</a></li>
-                </ul>
-              </div>
-              <div class="flex-shrink w-1/2 max-w-full mb-6 md:w-1/3 lg:mb-0">
                 <h4 class="mb-3 text-base leading-normal text-gray-800 uppercase">Includes</h4>
                 <ul>
                   <li class="py-1 hover:text-gray-900"><a href="/">Tailwind Css</a></li>
                   <li class="py-1 hover:text-gray-900"><a href="/">Javascript</a></li>
-                  <li class="py-1 hover:text-gray-900"><a href="/">Vendors Js</a></li>
+                  <li class="py-1 hover:text-gray-900"><a href="/">Flutter</a></li>
+                  <li class="py-1 hover:text-gray-900"><a href="/">NextJS</a></li>
+                  <li class="py-1 hover:text-gray-900"><a href="/">React</a></li>
                   <li class="py-1 hover:text-gray-900"><a href="/">Build System</a></li>
                 </ul>
               </div>
@@ -67,7 +60,6 @@
                   <li class="py-1 hover:text-gray-900"><a href="/">Privacy Policy</a></li>
                   <li class="py-1 hover:text-gray-900"><a href="/">Terms of Use</a></li>
                   <li class="py-1 hover:text-gray-900"><a href="/">License</a></li>
-                  <li class="py-1 hover:text-gray-900"><a href="/">GDPR</a></li>
                 </ul>
               </div>
             </div>

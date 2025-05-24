@@ -17,11 +17,11 @@
         <div class="relative mb-12 overflow-hidden bg-white dark:bg-gray-800 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s">
         <!-- team block -->
         <div class="relative px-6 overflow-hidden">
-            <img src="/img/dummy/avatar1.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="">
+            <img src="/img/dummy/avatar1.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="Team Member 1 Avatar Placeholder">
         </div>
         <div class="pt-6 text-center">
-            <p class="mb-1 text-lg font-bold leading-normal">Joe Antonio</p>
-            <p class="font-light leading-relaxed text-gray-500">Founder CEO</p>
+            <p class="mb-1 text-lg font-bold leading-normal">Team Member 1 Name</p>
+            <p class="font-light leading-relaxed text-gray-500">Role Title 1</p>
             <!-- social icon -->
             <div class="mt-2 mb-5 space-x-2">
             <a class="hover:text-blue-700" aria-label="Twitter link" href="#">
@@ -49,11 +49,11 @@
         <!-- team block -->
         <div class="relative mb-12 overflow-hidden bg-white dark:bg-gray-800 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
         <div class="relative px-6 overflow-hidden">
-            <img src="/img/dummy/avatar3.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="">
+            <img src="/img/dummy/avatar3.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="Team Member 2 Avatar Placeholder">
         </div>
         <div class="pt-6 text-center">
-            <p class="mb-1 text-lg font-bold leading-normal">Sarah Daeva</p>
-            <p class="font-light leading-relaxed text-gray-500">Marketing</p>
+            <p class="mb-1 text-lg font-bold leading-normal">Team Member 2 Name</p>
+            <p class="font-light leading-relaxed text-gray-500">Role Title 2</p>
             <!-- social icon -->
             <div class="mt-2 mb-5 space-x-2">
             <a class="hover:text-blue-700" aria-label="Twitter link" href="#">
@@ -81,11 +81,11 @@
         <!-- team block -->
         <div class="relative mb-12 overflow-hidden bg-white dark:bg-gray-800 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
         <div class="relative px-6 overflow-hidden">
-            <img src="/img/dummy/avatar2.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="">
+            <img src="/img/dummy/avatar2.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="Team Member 3 Avatar Placeholder">
         </div>
         <div class="pt-6 text-center">
-            <p class="mb-1 text-lg font-bold leading-normal">Daniel Emo</p>
-            <p class="font-light leading-relaxed text-gray-500">Sales manager</p>
+            <p class="mb-1 text-lg font-bold leading-normal">Team Member 3 Name</p>
+            <p class="font-light leading-relaxed text-gray-500">Role Title 3</p>
             <!-- social icon -->
             <div class="mt-2 mb-5 space-x-2">
             <a class="hover:text-blue-700" aria-label="Twitter link" href="#">
@@ -113,11 +113,11 @@
         <!-- team block -->
         <div class="relative mb-12 overflow-hidden bg-white dark:bg-gray-800 hover-grayscale-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <div class="relative px-6 overflow-hidden">
-            <img src="/img/dummy/avatar4.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="">
+            <img src="/img/dummy/avatar4.png" class="h-auto max-w-full mx-auto rounded-full bg-gray-50 grayscale" alt="Team Member 4 Avatar Placeholder">
         </div>
         <div class="pt-6 text-center">
-            <p class="mb-1 text-lg font-bold leading-normal">Toni Lana</p>
-            <p class="font-light leading-relaxed text-gray-500">UI/UX Designer</p>
+            <p class="mb-1 text-lg font-bold leading-normal">Team Member 4 Name</p>
+            <p class="font-light leading-relaxed text-gray-500">Role Title 4</p>
             <!-- social icon -->
             <div class="mt-2 mb-5 space-x-2">
             <a class="hover:text-blue-700" aria-label="Twitter link" href="#">

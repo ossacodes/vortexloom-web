@@ -1,3 +1,38 @@
+<script>
+  let name = '';
+  let email = '';
+  let subject = '';
+  let message = '';
+  let submissionStatus = '';
+
+  async function handleContactSubmit() {
+    const formData = {
+      name,
+      email,
+      subject,
+      message,
+    };
+
+    console.log('Contact Form Data:', formData);
+
+    // Simulate API call
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    submissionStatus = 'Thank you for your message! We will get back to you soon.';
+    
+    // Clear form fields
+    name = '';
+    email = '';
+    subject = '';
+    message = '';
+
+    // Optionally, clear the status message after a few seconds
+    setTimeout(() => {
+      submissionStatus = '';
+    }, 5000);
+  }
+</script>
+
 <!-- contact start -->
 <div id="contact" class="relative pb-20 bg-white section dark:bg-gray-800">
     <div class="container px-4 mx-auto xl:max-w-6xl">
@@ -16,34 +51,37 @@
             </header><!-- end section header -->
 
             <!-- contact form -->
-            <form action="#">
+            <form on:submit|preventDefault={handleContactSubmit}>
               <div class="flex flex-row flex-wrap -mx-4">
                 <div class="flex-shrink w-full max-w-full px-4 mb-6 md:w-1/2">
                   <label class="inline-block mb-2" for="name">Your Name</label>
-                  <input type="text" name="name" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="name">
+                  <input bind:value={name} type="text" name="name" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" id="name" required>
                   <div class="validate"></div>
                 </div>
                 <div class="flex-shrink w-full max-w-full px-4 mb-6 md:w-1/2">
                   <label class="inline-block mb-2" for="email">Your Email</label>
-                  <input type="email" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="email" id="email">
+                  <input bind:value={email} type="email" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="email" id="email" required>
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="mb-6">
                 <label class="inline-block mb-2" for="subject">Subject</label>
-                <input type="text" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="subject" id="subject">
+                <input bind:value={subject} type="text" class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="subject" id="subject" required>
                 <div class="validate"></div>
               </div>
               <div class="mb-6">
                 <label class="inline-block mb-2" for="messages">Message</label>
-                <textarea class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="message" rows="10" id="messages"></textarea>
+                <textarea bind:value={message} class="relative w-full px-5 py-3 overflow-x-auto leading-5 text-gray-800 bg-white border-b border-gray-100 rounded focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-400 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600" name="message" rows="10" id="messages" required></textarea>
                 <div class="validate"></div>
               </div>
+              {#if submissionStatus}
+                <p class="mb-4 text-center text-green-600">{submissionStatus}</p>
+              {/if}
               <div class="mb-6 text-center">
-                <a class="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border border-black hover:text-white hover:ring-0 focus:outline-none focus:ring-0" href="#project">
+                <button type="submit" class="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border border-black hover:text-white hover:ring-0 focus:outline-none focus:ring-0">
                       <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" class="inline-block mr-1" fill="currentColor" viewBox="0 0 512 512"><rect x="48" y="96" width="416" height="320" rx="40" ry="40" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="112 160 256 272 400 160" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
                        Send message
-                    </a>
+                    </button>
               </div>
             </form><!-- end contact form -->
           </div>
